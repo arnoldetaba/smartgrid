@@ -6,7 +6,7 @@ backcall==0.1.0
 bcrypt==3.1.4
 Beaker==1.10.0
 binwalk==2.1.1
-bleach==3.1.0
+bleach==3.1.4
 blivet==3.1.4
 blivet-gui==2.1.11
 cached-property==1.5.1
