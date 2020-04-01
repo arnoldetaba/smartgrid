@@ -1,3 +1,5 @@
+[Demo](https://www.youtube.com/watch?v=7btvw_rZboU)
+
 ### Installation
 
 smartgrid requires [Python3](https://www.python.org/downloads/) to run.
@@ -50,5 +52,30 @@ Client can be run independently of server code in any machine
 of the network.
 
 Server supports multiple clients connecting to it
+
+
+### Issues
+You may encounter the following errors
+
+#### 1. Agg backend problem
+
+```sh
+$ python3 graph.py
+graph.py:149: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+```
+
+Solution:
+
+#### Ubuntu
+https://stackoverflow.com/questions/56656777/userwarning-matplotlib-is-currently-using-agg-which-is-a-non-gui-backend-so
+```sh
+$ sudo apt-get install python3-tk
+```
+
+#### Fedora
+```sh
+$ sudo dnf install -y python3-tkinter
+```
 
 
